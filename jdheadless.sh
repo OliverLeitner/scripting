@@ -1,12 +1,14 @@
 #!/bin/sh
 #
 # Startup script for jdownloader2
-# found this one online, modified a bit for lower memory usage
-# my version also dynamically searches for the correct java binary and the correct JDownloader.jar
+#
+# Stop myself if running
+JAVA=~/jd2/jre/bin/java
+JD=~/jd2/JDownloader.jar
 PIDFILE=~/jd2/tmp/jdheadless.pid
 start() {
 	sleep 1
-		nohup $(which java) -Djava.awt.headless=true -server -Xms64m -Xmx64m -XX:MaxPermSize=512m -jar $(locate JDownloader.jar |head -1) &
+		nohup $JAVA -Djava.awt.headless=true -server -Xms64m -Xmx64m -XX:MaxPermSize=512m -jar $JD &
 		echo $! > $PIDFILE
 }
 stop() {
