@@ -1,0 +1,14 @@
+this is a collection of scripts ive written over the
+past few years to assist me with some linux
+task automatisation.
+
+i hope some of those are helpful for you guys too
+
+certgen.sh          generating a snakeoil openssl certificate
+convert.sh          batch convert mkv/avi/ogm/mp4/flv to low quality flv
+cpustat.sh          get cpu statistics of a process
+crap_cleaner.sh     like crap cleaner for windows, but for gnu
+freeram.sh          free ram and nfs optimisation
+jdheadless.sh       starting JDownloader2 headless
+movedirs.sh         move large number of files from one dir into chunks of n number of files into subdirs
+passwordfile.sh     grabbing a file with curl using bash.
