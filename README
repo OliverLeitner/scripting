@@ -18,3 +18,4 @@ gen_rtorrent.sh     generates the full directory structure for rtorrent
 backup_btrfs.sh     backing up brtfs volumes from a btrfs partition
 checkip.sh          if my ip changes, mail info to me and send me an sms
 changeperms.sh      simply file and directory permission changer
+fixnames.sh         fix names who wherent fixed by running detox command
