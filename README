@@ -5,10 +5,16 @@ task automatisation.
 i hope some of those are helpful for you guys too
 
 certgen.sh          generating a snakeoil openssl certificate
+gencert.sh          yet another certificate generator
 convert.sh          batch convert mkv/avi/ogm/mp4/flv to low quality flv
-cpustat.sh          get cpu statistics of a process
+convert_ffmpeg.sh   yet another batch converter using ffmpeg
+encoder.sh          yet another batch converter using ffmpeg
 crap_cleaner.sh     like crap cleaner for windows, but for gnu
 freeram.sh          free ram and nfs optimisation
 jdheadless.sh       starting JDownloader2 headless
 movedirs.sh         move large number of files from one dir into chunks of n number of files into subdirs
 passwordfile.sh     grabbing a file with curl using bash.
+gen_rtorrent.sh     generates the full directory structure for rtorrent
+backup_btrfs.sh     backing up brtfs volumes from a btrfs partition
+checkip.sh          if my ip changes, mail info to me and send me an sms
+changeperms.sh      simply file and directory permission changer
